@@ -65,5 +65,5 @@ def predict():
     output = pred(features)
     return render_template('index.html', prediction_text='The predicted tag(s) for the given subject could be : {}'.format(output))
 
-if __name__ == "__main__":
-    app.run(debug=True)
+#if __name__ == "__main__":
+#    app.run(debug=True)
